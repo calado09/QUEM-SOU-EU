@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* responsavel por incluir a borda e o padding dentro do tamanho do elemento */
+}
+body{
+    background-color: rgb(238, 234, 234);
+    margin: 5% 5% 5% 5%; /* responsavel pela margem do body */
+}
+main{
+    margin: 5% 5% 5% 5%; /* responsavel pela margem do main */
+}
+img{
+    max-width: 100%; /* responsavel por deixar a imagem responsiva */
+    height: auto; /* responsavel por manter a proporção da imagem */
+}
+.icone-menu {
+    width: 300px;  /* Largura que você desejar */
+    height: auto; /* Mantém a proporção da imagem sem achatar */
+    cursor: pointer;
+    transition: transform 0.10s; /* Efeito opcional de suavidade */
+}
+.icone-menu:hover {
+    transform: scale(1.1);
+}
+.flex{
+    display: flex; /* responsavel por organizar os elementos dentro da classe flex */
+    gap: 20px; /* responsavel pelo espaçamento entre os elementos dentro da classe flex */
+    justify-content: center; /* responsavel por centralizar os elementos dentro da classe flex */
+    align-items: center; /* responsavel por alinhar os elementos dentro da classe flex */
+    flex-wrap: wrap; /* responsavel por quebrar a linha quando os elementos não couberem em uma linha */
+    border: 10px solid black; /* responsavel por adicionar uma borda ao redor da classe flex */
+}
+.container {
+  display: flex;
+  flex-wrap: wrap; /* Faz os itens pularem de linha se não couberem */
+  justify-content: space-around;
+  align-items: center;
+}
+
+
+.escpacamento_lateral{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.escapacamento_sup_inf{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.corTexto{
+    color: rgb(192, 223, 199); /* responsavel pela cor do texto */
+}
+.espacamento_cabecalho{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}   
+.espacamento_Apresentacao{
+    margin: 5% 5% 0% 22%;
+}
+.espacamento_habilidades{
+    margin: 10% 5% 0% 46%;
+}
+.espacamento_habilidades2{
+    margin: 5% 5% 0% 18%;
+}
+.espacamento_projetos2{
+    margin: 5% 5% 0% 18%;
+}
+.espacamento_projetos{
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3%;
+    margin: 10% 5% 3% 7%;
+}
+@media screen and (max-width: 480px){.icone-menu {
+    width: 100px;  /* Largura que você desejar para telas menores */
+   }
+   p {
+       font-size: 18px; 
+}
+}
