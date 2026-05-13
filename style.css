@@ -55,7 +55,9 @@ img{
     margin-bottom: 5%;
 }   
 .espacamento_Apresentacao{
-    margin: 5% 5% 0% 22%;
+    text-align: center;
+    margin: 20px auto; /* responsavel por centralizar o texto e adicionar uma margem entre os parágrafos */
+    width: 100%; /* responsavel por deixar o texto com a largura total do container */
 }
 .espacamento_habilidades{
     margin: 10% 5% 0% 46%;
@@ -64,14 +66,15 @@ img{
     margin: 5% 5% 0% 18%;
 }
 .espacamento_projetos2{
-    margin: 5% 5% 0% 18%;
+    margin: 5% 5% 1% 18%;
 }
 .espacamento_projetos{
     justify-content: center;
     display: flex;
     flex-wrap: wrap;
-    gap: 3%;
+    gap: 5%;
     margin: 10% 5% 3% 7%;
+    text-align: center;
 }
 @media screen and (max-width: 480px){.icone-menu {
     width: 100px;  /* Largura que você desejar para telas menores */
